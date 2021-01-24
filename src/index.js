@@ -16,7 +16,7 @@ function builder(metadata, properties, content) {
 }
 
 (async () => {
-  const [, , inputFile, outputDir] = process.argv;
+  const [inputFile, outputDir] = process.argv.slice(-2);
   console.log("input  file\t:", inputFile);
   console.log("==========================================");
 

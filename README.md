@@ -2,10 +2,8 @@
 
 ## What
 
-this cli is separated a svg file to files of each layers.
-
-in this case) layer is treat of <g> in directory below of <svg>.
-
+this cli is separated a svg file to files of each layers.  
+in this case) layer is treat of <g> in directory below of <svg>.  
 And, filename is id (e.g. <g id="foo"> => foo.svg)
 
 ```xml

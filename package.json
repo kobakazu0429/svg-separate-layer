@@ -6,7 +6,7 @@
   "author": "kobakakzu0429 <kobakazu10@gmail.com>",
   "license": "MIT",
   "bin": {
-    "svg-separate-layer": "src/index.js"
+    "svg-separate-layer": "node src/index.js"
   },
   "scripts": {
     "lint": "npm run lint:eslint && npm run lint:prettier",
